@@ -1,0 +1,129 @@
+/*This style sheet is intended for the home index page*/
+
+.interior_row_wrapper.fp_top_margin{
+	margin-top:0px;
+	}
+.inner_wrap{
+	padding:0px;
+	}
+.outer_wrap{
+	max-width:none;
+	width:100%;
+	}
+#nav{
+	opacity:.9;
+	border-bottom:0px;
+}
+#nav .bar_2{
+	display:none;
+	}
+#_nav_doubledown .nav_background, #_nav_doubledown .nav_content{
+	text-align:center;
+	}
+#_nav_dropdown ul ul li a{
+	background-color:#323f4f!important;
+	}
+#_nav_dropdown ul ul li a:hover{
+    background-color:#000033!important;
+	}
+#nav .bar_1{
+	background-color:rgba(255,255,255, 0)!important;
+}
+#_nav_dropdown{
+	display:inline-block;
+
+}
+#footer{
+	display:none;
+	}
+body{
+	overflow:hidden;
+	position:fixed;
+    width:100%;
+	}
+#main{
+	top:-39px;
+}
+
+#_nav_doubledown{
+	display:inline-block;
+    width:50%;
+}
+#nav{
+	text-align:center;
+	z-index:99;
+	width:100%;
+}
+/*slideshow block customization*/
+.content_box._slideshow-block{
+	padding-bottom:0px;
+	}
+.columns_wrapper{
+	margin:0 0 0 -30px;
+}
+.content_box unaligned{
+	margin-bottom:0px;
+}
+
+.content_box .border_box{
+	border:0px;
+}
+._slideshow2 .flex-direction-nav a{
+	top:55%;
+	height:10%;
+	position:fixed;
+
+}
+
+/*drop down nav color*/
+
+/*Custom Footer*/
+#u_outer_footer{
+	width:100%;
+	text-align:center;
+	z-index:99;
+	position:fixed;
+	bottom:0;
+	}
+#u_footer{
+	display:inline-block;
+    width:600px;
+    background-color:#642667;
+    text-align:center;
+   -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+	z-index:100;
+	opacity:.9;
+}
+#u_footer:hover{
+	opacity:1;
+}
+#u_footer ul{
+    list-style-type:none;
+    text-align:center;
+    padding-left:0px;
+	margin:0px;
+}
+#u_footer ul li{
+    display:inline-block;
+    color:#FFF;
+    margin:5px 5%;
+	font-weight:bold;
+}
+#main_content #u_footer ul li a, a:hover{
+    color:#fff;
+    border-bottom:0px;
+}
+/*change slideshow size when screen is smaller*/
+@media screen and (max-width: 1300px)
+{
+	#main .slides img{
+		width:1500px!important;
+	}
+}
+
+
